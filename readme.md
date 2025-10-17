@@ -43,33 +43,44 @@ Copy code
 
 ---
 
-## Setup Instructions
+## GitHub Repository Installation Guide
 
-Follow these steps to run the project locally:
+Follow these steps to install and run the project from GitHub:
 
-1. **Clone the Repository**  
+1. **Clone the Repository**
 git clone https://github.com/Nivethith-AK/studinity.git
 cd studinity
 
-css
+arduino
 Copy code
 
-2. **Open in VS Code or any Editor**
+2. **Check line endings (optional but recommended for Windows)**
+git config core.autocrlf true
 
-3. **Add Your Firebase Config**  
-In `script.js`, replace this placeholder:
+markdown
+Copy code
+
+3. **Open in VS Code or any code editor**
+
+4. **Install Live Server extension (optional)**
+- In VS Code, search for **Live Server** and install it.  
+- Right-click `index.html` → **Open with Live Server** to preview your project.
+
+5. **Add Firebase Configuration**
+- Open `script.js` and replace the placeholder with your Firebase project details:
 ```javascript
 const firebaseConfig = {
     apiKey: 'YOUR_FIREBASE_API_KEY',
     authDomain: 'YOUR_FIREBASE_AUTH_DOMAIN',
     projectId: 'YOUR_FIREBASE_PROJECT_ID',
 };
-Launch the Website
-You can open index.html directly in your browser, or use a local server.
+Push changes back to GitHub (if needed)
 
-If you have VS Code Live Server installed:
-Right-click index.html → Open with Live Server
-
+sql
+Copy code
+git add .
+git commit -m "Add local changes"
+git push origin main
 Pricing Simulation
 Basic: Free
 
