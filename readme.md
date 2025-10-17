@@ -25,8 +25,7 @@ studinity/
 ├── index.html        # Main structure and content
 ├── style.css         # Styling and responsive design
 ├── script.js         # Functionality and Firebase logic
-├── README.md         # Project documentation
-└── assets/           # (Optional) Images, icons, or other static files
+└── README.md         # Project documentation
 ```
 
 ---
